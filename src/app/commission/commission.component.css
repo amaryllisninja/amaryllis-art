@@ -1,0 +1,44 @@
+h2, h3, p {
+    text-align: center;
+}
+
+.commission-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comm {
+    background-color: #e0e0e0;
+    width: 400px;
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.payment {
+    width: 50%;
+    text-align: center;
+    background-color: #263238;
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.comm-status {
+    width: 75%;
+    text-align: center;
+    color: #f5c0d7;
+    background-color: #99466A;
+    margin: auto;
+    padding: 1px;
+}

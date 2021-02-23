@@ -1,0 +1,29 @@
+.comic-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comic {
+    display: flex;
+    background-color: #e0e0e0;
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+    min-height: 150px;
+}
+
+.comic > img {
+    width: 120px;
+    height: 120px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #263238;
+}
+
+.comic:hover {
+    background-color: #f5c0d7;
+    color: #99466A;
+}

@@ -1,0 +1,41 @@
+.schedule {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.schedule > .day {
+    width: 100px;
+    min-height: 100px;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: #e0e0e0;
+    margin: 2px;
+    padding: 0 5px 10px 5px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #99466A;
+}
+
+a:hover {
+    color: #263238;
+    /* background-color: #f5c0d7; */
+}
+
+.latest-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.youtube-vid, .fb {
+    background-color: #e0e0e0;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+}

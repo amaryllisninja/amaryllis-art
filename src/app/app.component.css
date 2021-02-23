@@ -1,0 +1,184 @@
+@media only screen and (max-width: 800px) {
+    img.logo {
+        width: 25%;
+        padding: 3px;
+        border-radius: 100px;
+        background-color: white;
+        position: relative;
+        left: 37%;
+    }
+
+    .header>h1 {
+        display: none;
+    }
+
+    .main-grid {
+        display: grid;
+        grid-template-areas: "header header"
+                             "nav    nav"
+                             "main   main"
+                             "foot   foot";
+        grid-gap: 0;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+
+    ul.navlist {
+        text-align: center;
+    }
+
+    .donate-btn {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .socials-mobile {
+        text-align: center;
+    }
+
+    .socials-mobile > a {
+        margin: 10px;
+    }
+
+    .socials-mobile > .kofi {
+        margin-top: 10px;
+    }
+    
+    .fab {        
+        font-size: 20px;
+    }
+    
+    .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram, .fa-pinterest, .fa-tumblr, .fa-patreon {
+        color: #141518;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    img.logo {
+        width: 175px;
+        padding: 3px;
+        border-radius: 100px;
+        background-color: white;
+        float: left;
+    }
+
+    .header>h1 {
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .main-grid {
+        display: grid;
+        grid-template-areas: "header header"
+                             "nav    main"
+                             "foot   foot";
+        grid-gap: 0;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: auto;
+    }
+
+    ul.navlist {
+        text-align: left;
+    }
+
+    .socials-mobile {
+        display: none;
+    }
+    .fab {        
+        font-size: 30px;
+    }
+
+    .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram, .fa-pinterest, .fa-tumblr {
+        color: #263238;
+    }
+}
+
+.main-grid>div {
+    padding: 0;
+}
+
+.main-grid>.nav {
+    grid-area: nav;
+    min-width: 200px;
+}
+
+.main-grid>.header {
+    grid-area: header;
+    background-color: #f5c0d7;
+    color: #99466A;
+    padding: 10px;
+}
+
+.main-grid>.main {
+    grid-area: main;
+    padding: 5px;
+}
+
+.main-grid>.side {
+    grid-area: side;
+}
+
+.main-grid>.foot {
+    grid-area: foot;
+    color: #99466A;
+    text-align: center;
+    height: 30px;
+}
+
+.nav-sticky {
+    position: sticky;
+    top: 15px;
+}
+
+ul.navlist {
+    list-style-type: none;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navlist>li {
+    margin: 20px 5px 20px 10px;
+}
+
+ul.navlist>li>a {
+    padding: 10px;
+    color: #99466A;
+    text-decoration: none;
+}
+
+ul.navlist>li>a:hover {
+    background-color: #99466A;
+    color: white;
+}
+
+ul.navlist>li>a.active-link {
+    background-color: #f5c0d7;
+    color: #99466A;
+}
+
+ul.navlist>li>a.active-link:hover {
+    opacity: 0.7;
+}
+
+.donate-btn {
+    margin-left: 10px;
+}
+
+.donate-btn:hover {
+    opacity: 0.7;
+}
+
+.fab {
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+

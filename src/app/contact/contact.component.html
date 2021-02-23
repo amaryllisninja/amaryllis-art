@@ -1,0 +1,23 @@
+<h3>Send an email to artist @ amaryllisart.com</h3>
+<form
+    action="mailto:artist@amaryllisart.com" 
+    method="POST"
+    name="contact-form"
+    enctype="text/plain"
+    onsubmit="location.href='thanks.html';"
+>
+    <label for="reason">Reason for Contact</label><br>
+    <select name="reason" id="reason" class="reason" required>
+        <option value="comment-question">Comment or Question</option>    
+        <option value="commission">Commission Request</option>
+        <option value="issue">Problem or Issue</option>
+        <option value="other">Other</option>
+    </select><br>
+    <label for="name">Your Name</label><br>
+    <input type="text" name="name" id="name" required><br>
+    <label for="email">Your Email</label><br>
+    <input type="text" name="email" id="email" required><br>
+    <label for="message">Message</label><br>
+    <textarea name="message" id="message" cols="30" rows="10" required></textarea><br>
+    <input type="submit" value="Submit">
+</form>
